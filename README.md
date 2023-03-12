@@ -6,8 +6,8 @@ Job Freak
 
 # Links
 
-- [Live Website](https://my-learning-platform-28121.web.app/)
-- [Github Repo](https://github.com/programming-hero-web-course1/b610-learning-platform-client-side-MdRafiurRahmanSaikat)
+- [Live Website](https://job-freak.netlify.app/)
+- [Github Repo](https://github.com/RafiurRahmanSaikat/job-freak)
 
 ## Authors
 
