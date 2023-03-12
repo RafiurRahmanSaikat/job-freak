@@ -1,46 +1,28 @@
 import React from "react";
+import AnimatedBackground from "../components/AnimatedBackground";
 
 const About = () => {
   return (
-    <section>
-      <div className="absolute top-20 rounded-full bg-blue-400 left-[41vw] w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 "></div>
-      <div className="absolute rounded-full bg-green-300 -bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 "></div>
-      <div className="max-w-2xl px-6 py-16 mx-auto space-y-12">
-        <article className="space-y-8  text-gray-900">
-          <div className="space-y-6">
-            <h1 className="text-4xl font-bold md:tracking-tight md:text-5xl">
-              Hi 👋, <br /> I'm Rafiur Rahman Saikat
-            </h1>
-            <div className="flex flex-col items-start justify-between w-full md:flex-row md:items-center text-gray-600"></div>
-          </div>
-        </article>
+    <>
+      <div class="bg-white flex  items-center justify-center w-screen ">
         <div>
-          <div className="flex flex-wrap py-6 space-x-2 border-t border-dashed border-gray-600">
-            <p className="px-3 py-1 rounded-sm hover:underline bg-violet-600 text-gray-50">
-              #Web Developer
-            </p>
-            <p className="px-3 py-1 rounded-sm hover:underline bg-violet-600 text-gray-50">
-              #React JS
-            </p>
-            <p className="px-3 py-1 rounded-sm hover:underline bg-violet-600 text-gray-50">
-              #Full Stack Developer
-            </p>
-          </div>
-          <div className="space-y-2">
-            <h4 className="text-lg font-semibold">About Myself</h4>
-            <ul className="ml-4 space-y-1 list-disc">
-              <li>
-                I am a Web Developer. I Love programming and it is my passion .
-              </li>
-              <li>
-                I have 6 months of experience in the web development sector.
-                Here are some examples of my projects and skills.
-              </li>
-            </ul>
-          </div>
+          <h1 className="text-3xl font-bold  md:text-5xl">
+            About   Job Freak 👋,<br />
+          </h1>
+          <p className="mt-4 font-semibold ">
+            At Job Freak We Post daily updates on internships and jobs postings
+            ! ! Our aim is to empower the youth of our country and make them
+            Self-dependent. By providing them job/internships all kinds of
+            opportunities from various sectors, sharing knowledge and make them
+            competent enough so that they could excel in any field. If you have
+            any query regrading Site, Advertisement and any other issue, please
+            feel free to contact at our email jobfreak@gmail.com
+          </p>
+        <AnimatedBackground />  
         </div>
+
       </div>
-    </section>
+    </>
   );
 };
 
