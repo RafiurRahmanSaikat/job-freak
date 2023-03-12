@@ -4,14 +4,14 @@ import AnimatedBackground from "../components/AnimatedBackground";
 const About = () => {
   return (
     <>
-      <div class="bg-white flex  items-center justify-center overflow-hidden w-screen ">
+      <div className="bg-white flex  items-center justify-center overflow-hidden w-screen ">
         <div className="mx-8 md:mx-48">
           <p className="text-3xl font-bold  md:text-5xl">
             About Job Freak 👋,
             <br />
           </p>
           <div className=" space-y-4 ">
-            <p className=" p-2 mt-4  font-semibold  rounded-full text-center  hover:underline bg-violet-600 text-gray-50 ">
+            <p className=" p-2 mt-4  font-semibold  rounded-lg text-center  hover:underline bg-violet-600 text-gray-50 ">
               # At Job Freak We Post daily updates on internships and jobs
               postings ! !
             </p>
