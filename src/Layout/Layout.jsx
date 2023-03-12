@@ -4,7 +4,7 @@ import { Sidebar } from "../pages";
 
 const Layout = () => {
   return (
-    <section className=" flex ">
+    <section className="flex">
       <Sidebar />
       <Outlet />
     </section>

@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-white dark:bg-gray-900">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
